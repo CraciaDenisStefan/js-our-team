@@ -33,8 +33,18 @@ let infoTeam =[
     },
 ]
 
+let container = document.getElementById('container')
+
 for(let dati in infoTeam){
     console.log(infoTeam[dati].name)
     console.log(infoTeam[dati].role)
     console.log(infoTeam[dati].image)
+
+    let teamOnPage = `
+    <div>${infoTeam[dati].name}</div>
+    <div>${infoTeam[dati].role}</div>
+    <div>${infoTeam[dati].image}</div>
+    `
+   
+    container.innerHTML+= teamOnPage
 }
