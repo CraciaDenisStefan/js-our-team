@@ -11,3 +11,10 @@ Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e 
 1 - Creare un ciclo for in 
 2 - Prendiamo l'array infoTeam e la facciamo ciclare al interno di dati 
 3 - Creiamo un console.log infoTeam[dati] per ogni chiave in modo da vede in consol solo la proprieta .
+
+MILESTONE 2:
+Stampare le stesse informazioni su DOM sottoforma di stringhe
+1 - Creare un contenitore nel html
+2 - Creare un collegamento in js con il contenitore 
+3 - Creare una variabile con dentro i dati da inserire nel html
+4 - InnerText per visualizzare in pagina la variabile creata
