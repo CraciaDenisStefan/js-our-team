@@ -32,3 +32,9 @@ let infoTeam =[
         'image': 'barbara-ramos-graphic-designer.jpg',
     },
 ]
+
+for(let dati in infoTeam){
+    console.log(infoTeam[dati].name)
+    console.log(infoTeam[dati].role)
+    console.log(infoTeam[dati].image)
+}
